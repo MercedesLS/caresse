@@ -1,0 +1,46 @@
+<html>
+<title>VovóNews</title>
+<h2><center>Cadastrar beneficiado</center></h2>
+<br>
+<br>
+<label>Nome<label>
+<input type="text" id="beneficiado" name="beneficiado"><br><br>
+<label>Altura<label>
+<input type="float" id="altura" name="altura"><br><br>
+<label>Peso<label>
+<input type="float" id="peso" name="peso"><br><br>
+<div>
+<label for="diaa">Data de nascimento</label>
+    <input type="date" id="bday" name="diaa" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+    <span class="validity"></span>
+</div>
+<br>
+<label>Diagnósticos<label>
+<br>
+<br>
+<label>Patologia<label>
+<input type="text" id="diagnostico1" name="patologia1">
+<label>Prescrição<label>
+<input type="text" id="prescrição" name="prescrição1">
+<br>
+<br>
+<label>Dosagem<label>
+<select name="select">
+  <option value="valor1">1</option>
+  <option value="valor2" selected>2</option>
+  <option value="valor3">3</option>
+</select>
+<label>Horário<label>
+<select name="select">
+  <option value="valor1">Diario - Em jejum</option>
+  <option value="valor2" selected>Diário - Após o café</option>
+  <option value="valor3">Diário - Após o jantar</option>
+  <option value="valor4">Diário - Antes de dormir</option>
+  <option value="valor5">Sábado</option>
+  <option value="valor6">Eventual</option>
+</select>
+<br><br>
+<input type="submit" id="salvar" name="salvar" value="Salvar">
+<input type="submit" id="novo_medicamento" name="novo_medicamento" value="Novo medicamento">
+<input type="submit" id="novo_diagnostico" name="novo_diagnostico" value="Novo diagnóstico"><br><br>
+</html>
